@@ -9,6 +9,94 @@ The system is built using modern technologies and follows an Agile development m
 
 ---
 
+## Project Destinations Screenshots
+
+<div id="carousel" class="carousel">
+  <div class="slides">
+    <img src="path/to/screenshot1.png" alt="Screenshot 1">
+    <img src="path/to/screenshot2.png" alt="Screenshot 2">
+    <img src="path/to/screenshot3.png" alt="Screenshot 3">
+    <!-- Add more images as needed -->
+  </div>
+  <button class="prev" onclick="prevSlide()">&#10094;</button>
+  <button class="next" onclick="nextSlide()">&#10095;</button>
+</div>
+
+<style>
+.carousel {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+}
+
+.slides {
+  display: flex;
+  overflow: hidden;
+}
+
+.slides img {
+  width: 100%;
+  transition: transform 0.5s ease;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+</style>
+
+<script>
+let currentSlide = 0;
+
+function showSlide(index) {
+  const slides = document.querySelector('.slides');
+  const totalSlides = document.querySelectorAll('.slides img').length;
+  currentSlide = (index + totalSlides) % totalSlides;
+  slides.style.transform = 'translateX(' + (-currentSlide * 100) + '%)';
+}
+
+function nextSlide() {
+  showSlide(currentSlide + 1);
+}
+
+function prevSlide() {
+  showSlide(currentSlide - 1);
+}
+</script>
+
+---
+
+## System Analysis and Development
+
+### Requirements Analysis
+The project began with the requirements analysis phase, where the primary needs of the system were identified. Through a comprehensive study of these requirements, the system was divided into four main sections, helping to distribute the work and facilitate the management of the development process.
+
+...
+
+## Conclusion
+
+**My Agency** is a system for managing daily operations in a travel and tourism organization. The system has achieved significant improvements in information management, leading to higher efficiency and reduced errors. Its flexible design ensures scalability for future development and helps meet the changing needs of the organization over time.
+
+
 ## System Analysis and Development
 
 ### Requirements Analysis
