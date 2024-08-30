@@ -8,8 +8,13 @@
 The system is built using modern technologies and follows an Agile development methodology, allowing for continuous improvements and updates based on user feedback.
 
 ---
+### Screenshots:
 
-
+<p align="center">
+  <img src="https://i.postimg.cc/KjhZtf0s/1.png" alt="Screenshot 1" width="200" height="350"/>
+  
+</p>
+---
 ## System Analysis and Development
 
 ### Requirements Analysis
