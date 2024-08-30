@@ -12,6 +12,12 @@ The system is built using modern technologies and follows an Agile development m
 
 <p align="center">
   <img src="https://i.postimg.cc/KjhZtf0s/1.png" alt="Screenshot 1" width="400" height="200"/>
+  <img src="https://i.postimg.cc/4yvXPcM4/2.png" alt="Screenshot 1" width="400" height="200"/>
+  <img src="https://i.postimg.cc/X78VywdQ/3.png" alt="Screenshot 1" width="400" height="200"/>
+  <img src="https://i.postimg.cc/8PDp5yJ7/4.png" alt="Screenshot 1" width="400" height="200"/>
+  <img src="https://i.postimg.cc/CxxwCz4Y/5.png" alt="Screenshot 1" width="400" height="200"/>
+  <img src="https://i.postimg.cc/kgYqTqjS/6.png" alt="Screenshot 1" width="400" height="200"/>
+  <img src="https://i.postimg.cc/3wy76V6c/7.png" alt="Screenshot 1" width="400" height="200"/>
   
 </p>
 ---
